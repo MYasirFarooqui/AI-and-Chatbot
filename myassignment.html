@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+ var obtain = +prompt("Enter the obtain Marks:");
+ var Total = +prompt("Enter the total marks");
+ var percent = obtain/Total*100;
+ var grade = 0;
+ var remark = 0;
+ if(percent >=80 ){grade="A-one";
+ remark="Excellent"}
+ else if (percent >=70){grade="A"
+ remark="Good"}
+ else if (percent >=60){grade="B"
+ remark="You need to improve"}
+ else{grade="Fail"
+ remark="Sorry"}
+ document.write("<br>MARKSHEET <br><br> Total Marks=" + Total + "<br> Marks Obtain=" + obtain + "<br> Percentage= " + percent + "%" + "<br> Grade=" + grade + "<br> Remarks=" + remark)
+    </script>
+</body>
+</html>
